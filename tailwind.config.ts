@@ -26,6 +26,7 @@ export default {
 				foreground: 'hsl(var(--foreground))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
+					hover: 'hsl(var(--primary-hover))',
 					foreground: 'hsl(var(--primary-foreground))'
 				},
 				secondary: {
@@ -52,6 +53,24 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// Blue Haze Extended Palette
+				blueHaze: {
+					50: 'hsl(252, 33%, 98%)',
+					100: 'hsl(252, 22%, 94%)',
+					200: 'hsl(252, 20%, 90%)',
+					300: 'hsl(260, 19%, 71%)',
+					400: 'hsl(263, 21%, 75%)',
+					500: 'hsl(265, 25%, 64%)',
+					600: 'hsl(275, 24%, 58%)',
+					700: 'hsl(275, 31%, 49%)',
+					800: 'hsl(277, 32%, 40%)',
+					900: 'hsl(267, 21%, 37%)',
+					950: 'hsl(266, 27%, 24%)'
+				},
+				success: 'hsl(var(--success))',
+				warning: 'hsl(var(--warning))',
+				'card-bg': 'hsl(var(--card-bg))',
+				'muted-bg': 'hsl(var(--muted-bg))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
